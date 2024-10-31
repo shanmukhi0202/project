@@ -1,0 +1,138 @@
+.abc{
+    margin-left: 50px;
+    margin-right: 20px;
+    /* width: 1200px; */
+}
+.d-flex{
+    width: 300px;
+}
+.tags{
+    margin-inline: 50px;
+}
+.seabtn{
+     margin-top: 8px;
+     margin-left: 265px;   
+     position: absolute; 
+     z-index: 500;
+}
+.likebtn{
+    font-size: 9px;
+    margin-top: 5px; 
+    margin-left: -10px;
+    /* position: absolute;
+    z-index: 500; */
+    background-color: teal;
+}
+.likeimg{
+    margin-top: -10px;
+
+}
+.cartbtn{
+    margin-top: -10px;
+}
+.homeimg{
+    margin-left: 800px;
+    margin-top: 60px;
+}
+.head1{
+    color: rgb(57, 88, 57);
+    margin-top: -300px;
+}
+.grt{
+    font-size: 40px;
+}
+.trend{
+    width: 500px;
+    line-height: 55px;
+}
+.shop{
+  background-color: teal;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+}
+.pop{
+    margin-top: 100px;
+    line-height: 60px;
+}
+.oneset{
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+}
+  figcaption{
+   line-height: 40px;
+   text-align: center;
+   font-weight: 500;
+   color: rgb(15, 74, 74);
+   border: 1px solid rgb(194, 244, 216);
+   border-top: 1px solid white;
+   border-radius: 20px;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;  
+
+   
+}
+  .imgs{
+    border: 1px solid rgb(194, 244, 216);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px; 
+    /* border-radius: 20px;  */
+    border-bottom: 1px solid white;
+}  
+.btn2{
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+}
+.feature{
+    margin-top: 45px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro1{
+    margin-top: 60px;
+}
+ .products img{
+  position: absolute;
+  border-radius: 15px;
+} 
+.products #img1:hover{
+  opacity: 0;
+} 
+.products1 img{
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 400px;
+    
+  } 
+  .products1 #img4:hover{
+    opacity: 0;
+  } 
+  .products2 img{
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 800px;
+    
+  } 
+  .products2 #img6:hover{
+    opacity: 0;
+  } 
+  .products3 img{
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 1170px;
+    
+  } 
+  .products3 #img8:hover{
+    opacity: 0;
+  } 
+  
