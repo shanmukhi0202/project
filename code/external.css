@@ -221,7 +221,7 @@ figcaption{
     font-size: 15px;
     color: rgb(57, 88, 57);
     word-spacing: 15px;
-    border: 1px solid rgb(194, 244, 216);
+    /* border: 1px solid rgb(194, 244, 216); */
 
   }
   .loginbox{
@@ -411,7 +411,7 @@ figcaption{
   }
   
   table.single-column td {
-    border: 1px solid #aaa7a7;
+    border: 1px solid rgb(207, 217, 211);
     /* text-align: center; */
     padding: 10px; 
     height: 50px; 
@@ -426,7 +426,7 @@ figcaption{
   }
   .dashboard{
     width: 850px;
-    border: 1px solid #aaa7a7;
+    border: 1px solid rgb(207, 217, 211);
     margin-left: 600px;
     margin-top: -340px;
   }
@@ -437,4 +437,47 @@ figcaption{
   .dashboard p{
     padding: 5px;
     padding-left: 16px;
+  }
+  .compare td{
+    border: 1px solid rgb(207, 217, 211);
+    padding: 10px;
+  }
+  .comtxt{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .compare{
+    margin-top: 70px;
+    margin-left: 150px;
+  }
+  .tablecen{
+    text-align: center;
+  }
+  .colorball{
+    display: flex;
+    justify-content: center;
+  }
+  .colorball1{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px; 
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(250, 187, 69);
+  }
+  .colorball2{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px; 
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(254, 52, 86);
+  }
+  .colorball3{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(245, 245, 47);
   }
