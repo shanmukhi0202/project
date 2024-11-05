@@ -1,38 +1,38 @@
 /* Headers */
 .abc{
-    margin-left: 50px;
-    /* margin-right: 20px; */
-    /* width: 1200px; */
+  margin-left: 50px;
+  /* margin-right: 20px; */
+  /* width: 1200px; */
 }
 section{
-  margin-right: 20px;
+margin-right: 20px;
 }
 .d-flex{
-    width: 300px;
+  width: 300px;
 }
 .tags{
-    margin-inline: 50px;
+  margin-inline: 50px;
 }
 .seabtn{
-     margin-top: 8px;
-     margin-left: 265px;   
-     position: absolute; 
-     z-index: 500;
+   margin-top: 8px;
+   margin-left: 265px;   
+   position: absolute; 
+   z-index: 500;
 }
 .likebtn{
-    font-size: 9px;
-    margin-top: 5px; 
-    margin-left: -10px;
-    /* position: absolute;
-    z-index: 500; */
-    background-color: teal;
+  font-size: 9px;
+  margin-top: 5px; 
+  margin-left: -10px;
+  /* position: absolute;
+  z-index: 500; */
+  background-color: teal;
 }
 .likeimg{
-    margin-top: -10px;
+  margin-top: -10px;
 
 }
 .cartbtn{
-    margin-top: -10px;
+  margin-top: -10px;
 }
 /* hero section */
 .homeimg{
@@ -108,8 +108,9 @@ figcaption{
   .pro>div{
     margin-left: 30px;
     margin-bottom: 20px;
-    width: 320px;
+    width: 360px;
     border-radius: 20px;
+    padding: 10px;
   }
   
   .card-details{
@@ -119,23 +120,66 @@ figcaption{
    .pro img{
     border-radius: 20px;
    }
-  
-  .card{
+  /*  */
+  /* .card{
     border: 1px solid rgb(210, 240, 223);
     position: relative;
     padding: 10px;
     width: 390px;
+  }  */
+
+   .image-container{
+    width:340px;
   }
-  
-  .product #img2{
-    position:absolute;
-    top:10px;
+
+  #img1{
+    width: 100%;
+  }
+
+  .back{
+    width: 340px;
+    position: absolute;
+    top: 10px;
+  }
+
+  #img2{
+    width: 100%;
     opacity: 0;
     transition: opacity 0.5s;
   }
-  
+
   .card:hover #img2{
     opacity: 1;
+  }
+
+  .back-icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .card:hover .back-icons{
+    opacity: 1;
+  }
+
+  .back-icons>span{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #E9F6EB;
+    border-radius: 50%;
+    background-color: #E9F6EB;
+    color: black;
+    padding: 10px;
+    padding-inline: 15px;
+  }
+
+  .back-icons>span:hover{
+    background-color: teal;
+    border-color: teal;
+    color: white;
   }
   
   .price{
@@ -143,14 +187,16 @@ figcaption{
     font-weight: 600;
     font-size: 18px;
   }
+
   .offprz{
     font-size: 15px;
     color: rgb(170, 167, 167);
     text-decoration: 1px line-through;
     padding-left:5px ;
   }
+
   /* Banner section */
- .btn{
+ .btn3{
   border: none;
   background-color: teal;
   color: white;
@@ -204,6 +250,7 @@ figcaption{
   }
   .banner2{
     background-image: url("../img/deals-2.png");
+    background-position: 40%;
     padding: 30px;
     margin-left: 35px;
     margin-top: 45px;
@@ -215,8 +262,38 @@ figcaption{
  .banners{
   display: flex;
  }
+
+
+ /*  New arrivals  */
+ .new-arrive{
+  margin-left: 35px;
+  margin-top: 50px;
+ }
  .new-arrivals{
-  margin-top: 200px;
+  margin-top: -35px;
+ }
+
+ /* 4 columns grid */
+ .grid{
+  width: 95vw;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(4 ,1fr);
+  margin-left: 10px;
  }
+
+ .grid>div{
+  display: flex;
+  padding: 20px;
+  
+ }
+ .grid p{
+  padding-left: 10px;
+  font-size: 15px;
+  margin-top: 20px;
+ }
+ .grid h6{
+  padding-left: 10px;
+  margin-top: -10px;
+ }
+ 
