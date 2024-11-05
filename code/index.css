@@ -1,0 +1,222 @@
+/* Headers */
+.abc{
+    margin-left: 50px;
+    /* margin-right: 20px; */
+    /* width: 1200px; */
+}
+section{
+  margin-right: 20px;
+}
+.d-flex{
+    width: 300px;
+}
+.tags{
+    margin-inline: 50px;
+}
+.seabtn{
+     margin-top: 8px;
+     margin-left: 265px;   
+     position: absolute; 
+     z-index: 500;
+}
+.likebtn{
+    font-size: 9px;
+    margin-top: 5px; 
+    margin-left: -10px;
+    /* position: absolute;
+    z-index: 500; */
+    background-color: teal;
+}
+.likeimg{
+    margin-top: -10px;
+
+}
+.cartbtn{
+    margin-top: -10px;
+}
+/* hero section */
+.homeimg{
+    margin-left: 838px;
+    margin-top: 60px;
+}
+.head1{
+    color: rgb(57, 88, 57);
+    margin-top: -300px;
+}
+.grt{
+    font-size: 40px;
+}
+.trend{
+    width: 500px;
+    margin-left: -4px;
+    line-height: 55px;
+}
+.shop{
+  background-color: teal;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+}
+/* popular categories */
+.pop{
+    margin-top: 100px;
+    line-height: 60px;
+}
+.oneset{
+    display: flex;
+    justify-content: space-between;
+ }
+.oneset figure{
+  border: 1px solid rgb(194, 244, 216);
+  padding: 10px;
+  border-radius: 20px;
+}
+.imgs{
+  border-radius: 10px;
+} 
+figcaption{
+  text-align: center;
+  font-weight: 500;
+  color: rgb(15, 74, 74);
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+.btn2{
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.feature{
+    margin-top: 45px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+/* cards */
+.pro{
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+  
+  .pro>div{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 320px;
+    border-radius: 20px;
+  }
+  
+  .card-details{
+    padding: 15px;
+  }
+  
+   .pro img{
+    border-radius: 20px;
+   }
+  
+  .card{
+    border: 1px solid rgb(210, 240, 223);
+    position: relative;
+    padding: 10px;
+    width: 390px;
+  }
+  
+  .product #img2{
+    position:absolute;
+    top:10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .card:hover #img2{
+    opacity: 1;
+  }
+  
+  .price{
+    color: teal;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .offprz{
+    font-size: 15px;
+    color: rgb(170, 167, 167);
+    text-decoration: 1px line-through;
+    padding-left:5px ;
+  }
+  /* Banner section */
+ .btn{
+  border: none;
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 5px;
+ }
+ .banner{
+  background-image: url("../img/deals-1.jpg");
+  padding: 30px;
+  margin-left: 35px;
+  margin-top: 45px;
+  width: 670px;
+ }
+ .btn1{
+  background-color: transparent;
+  margin-top: 25px;
+  border: 2px solid teal;
+  color: teal;
+  font-weight: 500;
+  font-size: small;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+ }
+ .timer{
+  display: flex;
+ }
+ .banner span{
+  padding: 10px;
+ }
+ .timers1{
+ margin-left: 8px;
+ color: rgb(15, 74, 74);
+ }
+ .timers2{
+  margin-left: 3px;
+  color: rgb(15, 74, 74);
+  }
+  .timers3{
+  margin-left: 8px;
+  color: rgb(15, 74, 74);
+  }
+  .timers4{
+    margin-left: 10px;
+    color: rgb(15, 74, 74);
+  }
+  .banner2{
+    background-image: url("../img/deals-2.png");
+    padding: 30px;
+    margin-left: 35px;
+    margin-top: 45px;
+    width: 670px;
+   }
+   .banner2 span{
+    padding: 10px;
+   }
+ .banners{
+  display: flex;
+ }
+ .new-arrivals{
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+ }

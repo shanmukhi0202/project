@@ -1,0 +1,35 @@
+.abc{
+    margin-left: 50px;
+    /* margin-right: 20px; */
+    /* width: 1200px; */
+}
+section{
+  margin-right: 20px;
+}
+.d-flex{
+    width: 300px;
+}
+.tags{
+    margin-inline: 50px;
+}
+.seabtn{
+     margin-top: 8px;
+     margin-left: 265px;   
+     position: absolute; 
+     z-index: 500;
+}
+.likebtn{
+    font-size: 9px;
+    margin-top: 5px; 
+    margin-left: -10px;
+    /* position: absolute;
+    z-index: 500; */
+    background-color: teal;
+}
+.likeimg{
+    margin-top: -10px;
+
+}
+.cartbtn{
+    margin-top: -10px;
+}
