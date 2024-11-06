@@ -9,6 +9,10 @@ section{
 .d-flex{
     width: 300px;
 }
+.nav-link{
+  font-size: 15px;
+  font-weight: 600;
+}
 .tags{
     margin-inline: 50px;
 }
@@ -56,13 +60,15 @@ section{
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
+    margin-left: -25px;
   }
   
   .pro>div{
     margin-left: 30px;
     margin-bottom: 20px;
-    width: 320px;
+    /* width: 320px; */
     border-radius: 20px;
+    padding: 10px;
   }
   
   .card-details{
@@ -72,36 +78,157 @@ section{
    .pro img{
     border-radius: 20px;
    }
-  
-  .card{
+  /*  */
+   .card{
     border: 1px solid rgb(210, 240, 223);
     position: relative;
     padding: 10px;
-    width: 390px;
+    height: 500px;
+    /* width: 250px; */
+  }   
+
+   .image-container{
+    width:306px;
   }
-  
-  .product #img2{
-    position:absolute;
-    top:10px;
+
+  #img1{
+    width: 100%;
+  }
+
+  .back{
+    width: 300px;
+    position: absolute;
+    top: 10px;
+  }
+
+  #img2{
+    width: 100%;
     opacity: 0;
     transition: opacity 0.5s;
   }
-  
+
   .card:hover #img2{
     opacity: 1;
   }
+
+  .back-icons{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translateX(-49%);
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .card:hover .back-icons{
+    opacity: 1;
+  }
   
+  .tt-icon{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #E9F6EB;
+    border-radius: 50%;
+    background-color: #E9F6EB;
+    color: black;
+    padding: 10px;
+    padding-inline: 15px;
+    margin-left: 5px;
+  }
+
+  .tt:hover .tt-icon{
+    background-color: teal;
+    border-color: teal;
+    color: white;
+  }
+
+  .tt{
+    position: relative;
+  }
+
+  .tt .tt-text::after{
+    content: attr(data-tt);
+    color: white;
+    background-color: teal;
+    font-size: 12px;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border: 1px solid teal;
+    border-radius: 5px;
+    position: absolute;
+    left: -25%;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .tt:hover .tt-text::after{
+    visibility: visible;
+    opacity: 1;
+    top: -190%;
+  }
+
+  .tt .tt-text::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 7px solid;
+    border-color: teal transparent transparent transparent;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .tt:hover .tt-text::before{
+    visibility: visible;
+    opacity: 1;
+    top: -70%;
+  }
+
+
   .price{
     color: teal;
     font-weight: 600;
     font-size: 18px;
   }
+
   .offprz{
     font-size: 15px;
     color: rgb(170, 167, 167);
     text-decoration: 1px line-through;
     padding-left:5px ;
   }
+  .hot-button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 15px;
+    background-color: rgb(254, 83, 140);
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .card-cart{
+    position: relative;
+    left: 230px;
+    top: -55px;
+    background-color:  #E9F6EB;
+    border: 1px solid  #b8dcbe;
+    padding: 5px;
+    padding-bottom: 12px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 50px;
+  }
+
+
 /* Footers */
 .footer{
     margin-top: 200px;
@@ -144,6 +271,10 @@ section{
     border-top-right-radius: 4px;
     font-size: small;
   }
+  .subbox:hover{
+    background-color: teal;
+    color: white;
+  }
   .footerpart{
     margin-top: 5px;
   }
@@ -180,12 +311,18 @@ section{
     margin-left: 520px;
     margin-top: -280px;
   }
+  .footset p:hover{
+    color: teal;
+  }
   .footset1{
     margin-top: 20px;
   }
   .footset2{
     margin-left: 830px;
     margin-top: -285px;
+  }
+  .footset2 p:hover{
+    color: teal;
   }
   .footpay{
     margin-left: 1100px;
@@ -197,3 +334,9 @@ section{
   .footimg{
     margin-top: 50px;
   }
+  .pagination{
+  display: inline-block;
+
+  }
+  
+  

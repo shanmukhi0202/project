@@ -10,6 +10,10 @@ section{
 .d-flex{
     width: 300px;
 }
+.nav-link{
+  font-size: 15px;
+  font-weight: 600;
+}
 .tags{
     margin-inline: 50px;
 }
@@ -89,6 +93,11 @@ section{
     padding-left: 25px;
     padding-right: 25px;
     margin-left: 12px;
+  }
+  .logbtn:hover{
+    background-color: white;
+    border: 1px solid teal;
+    color: teal;
   }
   .loginbox1{
     border: 0.5px solid hsl(0, 1%, 86%);
@@ -177,6 +186,10 @@ section{
     border-top-right-radius: 4px;
     font-size: small;
   }
+  .subbox:hover{
+    background-color: teal;
+    color: white;
+  }
   .footerpart{
     margin-top: 5px;
   }
@@ -213,12 +226,18 @@ section{
     margin-left: 520px;
     margin-top: -280px;
   }
+  .footset p:hover{
+    color: teal;
+  }
   .footset1{
     margin-top: 20px;
   }
   .footset2{
     margin-left: 830px;
     margin-top: -285px;
+  }
+  .footset2 p:hover{
+    color: teal;
   }
   .footpay{
     margin-left: 1100px;
