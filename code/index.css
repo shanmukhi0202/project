@@ -63,8 +63,10 @@ margin-right: 20px;
     line-height: 60px;
 }
 .oneset{
-    display: flex;
-    justify-content: space-between;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+    
  }
 .oneset figure{
   border: 1px solid rgb(194, 244, 216);
@@ -103,12 +105,13 @@ figcaption{
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
+    margin-left: -25px;
   }
   
   .pro>div{
     margin-left: 30px;
     margin-bottom: 20px;
-    width: 360px;
+    /* width: 320px; */
     border-radius: 20px;
     padding: 10px;
   }
@@ -121,15 +124,16 @@ figcaption{
     border-radius: 20px;
    }
   /*  */
-  /* .card{
+   .card{
     border: 1px solid rgb(210, 240, 223);
     position: relative;
     padding: 10px;
-    width: 390px;
-  }  */
+    height: 500px;
+    /* width: 250px; */
+  }   
 
    .image-container{
-    width:340px;
+    width:306px;
   }
 
   #img1{
@@ -137,7 +141,7 @@ figcaption{
   }
 
   .back{
-    width: 340px;
+    width: 300px;
     position: absolute;
     top: 10px;
   }
@@ -153,10 +157,11 @@ figcaption{
   }
 
   .back-icons{
+    display: flex;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 49%;
+    transform: translateX(-49%);
     opacity: 0;
     transition: opacity 0.5s;
   }
@@ -164,8 +169,8 @@ figcaption{
   .card:hover .back-icons{
     opacity: 1;
   }
-
-  .back-icons>span{
+  
+  .tt-icon{
     height: 50px;
     width: 50px;
     border: 1px solid #E9F6EB;
@@ -174,14 +179,61 @@ figcaption{
     color: black;
     padding: 10px;
     padding-inline: 15px;
+    margin-left: 5px;
   }
 
-  .back-icons>span:hover{
+  .tt:hover .tt-icon{
     background-color: teal;
     border-color: teal;
     color: white;
   }
-  
+
+  .tt{
+    position: relative;
+  }
+
+  .tt .tt-text::after{
+    content: attr(data-tt);
+    color: white;
+    background-color: teal;
+    font-size: 12px;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border: 1px solid teal;
+    border-radius: 5px;
+    position: absolute;
+    left: -25%;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .tt:hover .tt-text::after{
+    visibility: visible;
+    opacity: 1;
+    top: -190%;
+  }
+
+  .tt .tt-text::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 7px solid;
+    border-color: teal transparent transparent transparent;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .tt:hover .tt-text::before{
+    visibility: visible;
+    opacity: 1;
+    top: -70%;
+  }
+
+
   .price{
     color: teal;
     font-weight: 600;
@@ -193,6 +245,32 @@ figcaption{
     color: rgb(170, 167, 167);
     text-decoration: 1px line-through;
     padding-left:5px ;
+  }
+  .hot-button{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 15px;
+    background-color: rgb(254, 83, 140);
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .card-cart{
+    position: relative;
+    left: 230px;
+    top: -55px;
+    background-color:  #E9F6EB;
+    border: 1px solid  #b8dcbe;
+    padding: 5px;
+    padding-bottom: 12px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 50px;
   }
 
   /* Banner section */
@@ -210,9 +288,9 @@ figcaption{
  .banner{
   background-image: url("../img/deals-1.jpg");
   padding: 30px;
-  margin-left: 35px;
+  margin-left: 10px;
   margin-top: 45px;
-  width: 670px;
+  width: 683px;
  }
  .btn1{
   background-color: transparent;
@@ -254,7 +332,7 @@ figcaption{
     padding: 30px;
     margin-left: 35px;
     margin-top: 45px;
-    width: 670px;
+    width: 683px;
    }
    .banner2 span{
     padding: 10px;
@@ -262,29 +340,25 @@ figcaption{
  .banners{
   display: flex;
  }
+ /* 4 column design */
 
-
- /*  New arrivals  */
- .new-arrive{
-  margin-left: 35px;
-  margin-top: 50px;
+ .four-column{
+  margin-left: -5px;
+  padding-top: 50px;
+  padding-bottom: 30px;
  }
- .new-arrivals{
-  margin-top: -35px;
- }
-
- /* 4 columns grid */
  .grid{
   width: 95vw;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4 ,1fr);
-  margin-left: 10px;
+  /* margin-left: 10px; */
  }
 
  .grid>div{
   display: flex;
   padding: 20px;
+  margin-left: -25px;
   
  }
  .grid p{
