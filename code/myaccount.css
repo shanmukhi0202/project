@@ -90,7 +90,7 @@ table.single-column {
   }
   /* Footers */
   .footer{
-    margin-top: 250px;
+    margin-top: 280px;
     background-color: rgb(159, 200, 200);
     margin-left: -50px;
     margin-right: -20px;
@@ -193,3 +193,15 @@ table.single-column {
   .footimg{
     margin-top: 50px;
   }
+  .copyright{
+    margin-top: 210px;
+  }
+  #design{
+    margin-left:990px;
+    color: grey;
+   }
+  
+   .logo{
+  color:grey;
+  
+   }

@@ -41,6 +41,10 @@ section{
     margin-left: -50px;
     background-color: hsl(0, 0%, 89%);
   }
+  .items-found{
+    margin-top: 50px;
+    margin-left: 10px;
+  }
   .login{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -231,7 +235,7 @@ section{
 
 /* Footers */
 .footer{
-    margin-top: 200px;
+    margin-top: 80px;
     background-color: rgb(159, 200, 200);
     margin-left: -50px;
     margin-right: -20px;
@@ -334,9 +338,42 @@ section{
   .footimg{
     margin-top: 50px;
   }
-  .pagination{
-  display: inline-block;
-
+  .pagination a{
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    
   }
+  .active1{
+    background-color: teal;
+    border-radius: 5px;
+   
+  }
+  .pagination{
+    margin-left: 580px;
+    margin-top: 20px;
+  }
+  .pagination a:hover{
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+  }
+  .copyright{
+    margin-top: 210px;
+  }
+  #design{
+    margin-left:990px;
+    color: grey;
+   }
+  
+   .logo{
+  color:grey;
+  
+   }
+  
+
+  
   
   
