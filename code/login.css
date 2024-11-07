@@ -1,8 +1,6 @@
 /* headers */
 .abc{
     margin-left: 50px;
-    /* margin-right: 20px; */
-    /* width: 1200px; */
 }
 section{
   margin-right: 20px;
@@ -27,8 +25,6 @@ section{
     font-size: 9px;
     margin-top: 5px; 
     margin-left: -10px;
-    /* position: absolute;
-    z-index: 500; */
     background-color: teal;
 }
 .likeimg{
@@ -52,7 +48,7 @@ section{
     font-size: 15px;
     color: rgb(57, 88, 57);
     word-spacing: 15px;
-    /* border: 1px solid rgb(194, 244, 216); */
+  
 
   }
   .loginbox{
@@ -119,7 +115,6 @@ section{
   }
   .account1{
     padding: 10px;
-    /* margin-top: 20px; */
     width: 600px;
     border: 0.5px solid hsl(0, 1%, 86%);
     border-radius: 3px;
@@ -128,7 +123,6 @@ section{
   }
   .account2{
     padding: 10px;
-    /* margin-top: 20px; */
     width: 600px;
     border: 0.5px solid hsl(0, 1%, 86%);
     border-radius: 3px;
@@ -137,7 +131,6 @@ section{
   }
   .account3{
     padding: 10px;
-    /* margin-top: 20px; */
     width: 600px;
     border: 0.5px solid hsl(0, 1%, 86%);
     border-radius: 3px;

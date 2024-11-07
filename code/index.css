@@ -1,8 +1,6 @@
 /* Headers */
 .abc{
   margin-left: 50px;
-  /* margin-right: 20px; */
-  /* width: 1200px; */
 }
 section{
 margin-right: 20px;
@@ -27,8 +25,6 @@ margin-right: 20px;
   font-size: 9px;
   margin-top: 5px; 
   margin-left: -10px;
-  /* position: absolute;
-  z-index: 500; */
   background-color: teal;
 }
 .likeimg{
@@ -133,13 +129,13 @@ figcaption{
    .pro img{
     border-radius: 20px;
    }
-  /*  */
+ 
    .card{
     border: 1px solid rgb(210, 240, 223);
     position: relative;
     padding: 10px;
     height: 500px;
-    /* width: 250px; */
+    
   }   
 
    .image-container{
@@ -363,14 +359,14 @@ figcaption{
  .four-column{
   margin-left: -5px;
   padding-top: 50px;
-  /* padding-bottom: 30px; */
+
  }
  .grid{
   width: 95vw;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4 ,1fr);
-  /* margin-left: 10px; */
+
  }
 
  .grid>div{

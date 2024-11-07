@@ -1,8 +1,7 @@
 /* Headers */
 .abc{
   margin-left: 50px;
-  /* margin-right: 20px; */
-  /* width: 1200px; */
+ 
 }
 section{
 margin-right: 20px;
@@ -27,8 +26,6 @@ margin-right: 20px;
   font-size: 9px;
   margin-top: 5px; 
   margin-left: -10px;
-  /* position: absolute;
-  z-index: 500; */
   background-color: teal;
 }
 .likeimg{
@@ -62,7 +59,6 @@ table.single-column {
   
   table.single-column td {
     border: 1px solid rgb(207, 217, 211);
-    /* text-align: center; */
     padding: 10px; 
     height: 50px; 
   }
